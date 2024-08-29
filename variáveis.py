@@ -33,3 +33,26 @@
 #y -= 3
 #if x > 0 or y > 0:
 #    print(lebron)
+
+#nome = ""
+#if nome == "beta":
+#    print("mono")
+#elif nome =="marquinhos":
+#    print("goat")
+#else:
+#    print("bolas")
+#x = 10
+#while x != 20:
+#    print(x ** 2 )
+#    x+=1
+#for i in range(10**10):
+#    print("lebron")
+#print(10**10)
+nogger = ["preto","mono","monkey","niga"]
+viado = [1,2,3,4]
+quantia = len(nogger)
+indice = 0
+
+while indice in range(quantia):
+   print(f'{nogger[indice]} : {viado[indice]}')
+   indice += 1
