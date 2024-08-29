@@ -48,7 +48,23 @@
 #for i in range(10**10):
 #    print("lebron")
 #print(10**10)
-
-def goat():
-    print("mesi")
-goat()
+#def goat():
+#    print("mesi")
+#goat()
+#def sum(a,b,c,d,e):
+#    print((a + b) * (c + d) ** e)
+#sum(1,2,3,4,5)
+#def tabuada(a):
+#    int(input("?"))
+#    print(f'{a} x 1 = ' a * 1 )
+#    print(f'{a} x 2 = ' a* 2 )
+#tabuada(2)
+def tabuada():
+    print('\t\t-----?----')
+    x=1
+    a = int(input('??'))
+    print(f'a tabuada de {a} é: \t\n')
+    while x != 11:
+        print(f'{a} X {x} = ' + str(a*x))
+        x+=1
+tabuada()
