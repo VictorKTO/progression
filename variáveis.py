@@ -59,12 +59,26 @@
 #    print(f'{a} x 1 = ' a * 1 )
 #    print(f'{a} x 2 = ' a* 2 )
 #tabuada(2)
-def tabuada():
-    print('\t\t-----?----')
-    x=1
-    a = int(input('??'))
-    print(f'a tabuada de {a} é: \t\n')
-    while x != 11:
-        print(f'{a} X {x} = ' + str(a*x))
-        x+=1
-tabuada()
+#def tabuada():
+#    print('\t\t-----?----')
+#    x=1
+#    a = int(input('??'))
+#    print(f'a tabuada de {a} é: \t\n')
+#    while x != 11:
+#        print(f'{a} X {x} = ' + str(a*x))
+#        x+=1
+#tabuada()
+class pessoa:
+    def __init__(self ,nome , idade , status):
+        self.nome = nome
+        self.idade = idade
+        self.status = status
+    def saudar(self):
+        print(F'hello {self.nome} age {self.idade} from {self.status}')
+        lista_lebron = ["bahia"]
+        if self.status in lista_lebron:
+            print('goat')
+        else:
+            print("not goat" )
+Pessoa1 = pessoa("lebron", "777", "bahia")
+Pessoa1.saudar()
